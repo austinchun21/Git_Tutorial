@@ -1,3 +1,4 @@
+
 % test.m
 % tests the impulse_response function
 
@@ -6,3 +7,4 @@ x = sin(10*t);
 y = 0.01*sin(10*t-pi/2);
 
 impulse_response(x,y,0.001)
+
